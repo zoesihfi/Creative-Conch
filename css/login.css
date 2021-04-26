@@ -1,5 +1,4 @@
 body {
-   
     background-color: #FAF3E0;
 }
 
@@ -12,18 +11,17 @@ body {
 }
 
 #header-button {
-    padding: 20px;
-    width: 450px;
+    padding: 50px;
+    width: 600px;
     border: 2px solid #EABF9F;
-    border-radius: 100px;
+    border-radius: 68px;
     background-color: #EABF9F;
     font-size: 64px;
     font-family: 'Manrope', sans-serif;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 375px;
-    margin-bottom: 75px;
+    margin-left: 250px;
 }
+
 
 input {
     border-top-style: hidden;
@@ -32,7 +30,6 @@ input {
     border-bottom-style: groove;
     background-color: #FAF3E0;
     border-bottom-color: black;
-    margin-bottom: 20px;
 
   }
 ::placeholder {
@@ -48,15 +45,15 @@ input {
     margin-left: 150px;
 }
 
-
 #footer-button {
     background-color: #E4D3CF;
     font-family: 'Manrope', sans-serif;
-    width: 900px;
+    width: 1100px;
     padding: 20px;
     border: 2px solid #E4D3CF;
     border-radius: 35px;
     margin-top: 90px;
+    margin-left: 100px;
 }
 
 #large-font-footer {
@@ -64,7 +61,7 @@ input {
 
 }
 
-#log-in-link {
+#sign-in-link {
     text-align: center;
     outline: none;
     margin-top: 70px;
@@ -73,6 +70,47 @@ input {
     color:black;
 }
 
-#log-in-link:hover {
+#sign-in-link:hover {
     color: #CD9C27;
+}
+
+/* Footer */
+#footer {
+position: absolute;
+width: 1440px;
+height: 197px;
+left: 0px;
+top: 827px;
+}
+
+
+/* Rectangle 114 */
+#rectangle {
+position: absolute;
+width: 1440px;
+height: 197px;
+left: 0px;
+top: 827px;
+
+background: #CD9C27;
+}
+
+/* TURN OUT */
+.logo {
+position: absolute;
+width: 182px;
+height: 90px;
+left: 47px;
+top: 901px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 1px;
+/* or 2% */
+text-align: center;
+
+color: #FFFFFF;
+
 }
