@@ -1,0 +1,44 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+input {
+    font-family: 'Manrope', sans-serif; 
+}
+select {
+    font-family: 'Manrope', sans-serif;
+}
+button {
+    font-family: 'Manrope', sans-serif;
+
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #FAF3E0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
